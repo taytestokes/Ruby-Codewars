@@ -5,8 +5,8 @@
 # My Answer
 def square_sum(numbers)
     total = 0
-    for num in numbers
-        total += num * num
+    numbers.each do |num|
+      total += num * num
     end
     return total
-end
+  end
